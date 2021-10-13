@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					}
+				],
+				"name": "sc",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "_gateKey",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "entrant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"21.sol/25.sol": "GatekeeperOne"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"21.sol/25.sol": {
+			"keccak256": "0x76aa876e440b73345b63c82a99fe8136b502d809c82ca12d0087449ed5e54d3b",
+			"urls": [
+				"bzz-raw://3635aa7d08c6c45d6f93ceb9eb8edc2d3f0fa3d24e16c1ff970a2a2c7df96583",
+				"dweb:/ipfs/QmXbFCWbLzb9wq6YNooHHARQ9YjZewiscHMnTkDp1zAAka"
+			]
+		}
+	},
+	"version": 1
+}

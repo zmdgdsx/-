@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "p",
+						"type": "uint256"
+					}
+				],
+				"name": "cal_addr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "res1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "res2",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "ddd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "feng",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7.sol": "map"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7.sol": {
+			"keccak256": "0x63caf1fd14463bb98a8131cd3d3a50442e0aa0d714267d4e7ed9a4f683a09690",
+			"urls": [
+				"bzz-raw://3144a9cb744f341f8cd1ce5e5d9408f8ccb4715cd19c755c9cb22c214f6ddeb7",
+				"dweb:/ipfs/QmNbBCCLHmHK3LzxyQXNego1x8YZoXpgWtkGpgJa3Nyxhy"
+			]
+		}
+	},
+	"version": 1
+}

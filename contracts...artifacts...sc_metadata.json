@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "echo",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11.sol": "sc"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11.sol": {
+			"keccak256": "0x171a6f91945f53be1106547763a2371a7d36da666826cb146c4b0807e1581903",
+			"urls": [
+				"bzz-raw://34df3ea6eef3c30e2e386848a48cbfa3fa568439885f36b9739712d071941c41",
+				"dweb:/ipfs/QmS1mfdrtikdqRCeMm1DZ8Nw6qFKcAgJaLafhgBnoQKQth"
+			]
+		}
+	},
+	"version": 1
+}

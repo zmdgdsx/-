@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.2+commit.1df8f40c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"17.sol": "ECVerify"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"17.sol": {
+			"keccak256": "0xa0c7d40d04500294779840aa8078343e3f35b6dac9109c437b0dcd5c86917265",
+			"urls": [
+				"bzzr://680638fa1242a4f8e624df294563080c51811fafb7ac5dade8a77f392c79e6aa"
+			]
+		}
+	},
+	"version": 1
+}
